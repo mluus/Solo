@@ -8,6 +8,9 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
+
+gem 'noty-rails'
+
 gem 'bootstrap-sass', '~> 3.2.0'
 #Spring speeds up development by keeping yout application krunning in the background
 gem 'spring',        group: :development
