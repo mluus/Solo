@@ -1,6 +1,7 @@
 <div class = "alert alert-warning">
   <%= flash.map {|name, message| "#{name}: #{message}"}.join("; ") %>
 </div>
+  protect_from_forgery with: :null_session
 <h1>Hi there!</h1>
 
 

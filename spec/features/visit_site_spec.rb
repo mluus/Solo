@@ -16,14 +16,5 @@ feature 'visit the site' do
   expect(page).to have_content 'Terms'
   end
 
-  scenario 'Profile' do
-  visit '/profile'
-  expect(page).to have_content 'Profile'
-  end
-
-  scenario 'Selector' do
-  visit '/selector'
-  expect(page).to have_content 'Selector'
-  end
 
 end

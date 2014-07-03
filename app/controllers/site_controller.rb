@@ -1,7 +1,7 @@
 class SiteController < ApplicationController
 
   def index
-    # flash.now[:alert] = "No URL yet"
+    flash.now[:alert] = "No URL yet"
   end
 
   def privacy
@@ -10,8 +10,6 @@ class SiteController < ApplicationController
   def terms
   end
 
-  def profile
-  end
 
   def selector
   end
