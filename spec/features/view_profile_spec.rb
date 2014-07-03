@@ -21,14 +21,14 @@ feature 'profile' do
     visit '/profile/user_data'
     expect(page).to have_content 'user data'
   end
-
+#testing various scenarios to check web page for Profile!
   scenario 'fill in username' do
     visit 'profile'
-    # User.make(:email => 'user@example.com', :password => 'caplin')
     within ('#link') do
       fill_in 'username', :with => "morne luus"
       click_on 'Submit'
     end
+    # line below will show the path on the URL line.
     expect(current_path).to eq('/profile')
   end
 end
