@@ -9,4 +9,6 @@ RSpec.describe Url, :type => :model do
     expect(url).to be_valid
   end
 
+
+
 end

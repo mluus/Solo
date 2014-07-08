@@ -3,7 +3,7 @@ require 'rails_helper'
 feature 'profile' do
   scenario 'login button' do
     visit '/profile'
-    expect(find('#link')).to have_button('Submit')
+    expect(find('#link')).to have_button('update')
   end
 
   scenario 'login text field' do
@@ -26,9 +26,14 @@ feature 'profile' do
     visit 'profile'
     within ('#link') do
       fill_in 'username', :with => "morne luus"
-      click_on 'Submit'
+      click_on 'update'
     end
     # line below will show the path on the URL line.
     expect(current_path).to eq('/profile')
   end
+
+  # it "is invalid if the url does not start with http" do
+  #   url = Url.new
+  # end
+
 end

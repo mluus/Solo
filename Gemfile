@@ -14,6 +14,7 @@ gem 'noty-rails'
 gem 'bootstrap-sass', '~> 3.2.0'
 #Spring speeds up development by keeping yout application krunning in the background
 gem 'spring',        group: :development
+gem 'devise'
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.0.0'

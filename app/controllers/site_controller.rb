@@ -11,7 +11,4 @@ class SiteController < ApplicationController
   end
 
 
-  def selector
-  end
-
 end

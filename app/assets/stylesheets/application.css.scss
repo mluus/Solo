@@ -6,7 +6,9 @@
  @import "bootstrap";
 
 body {
-  padding-top: 50px;
+  background-image: url(http://cdn.lightgalleries.net/4bd5ec1013294/images/Vietnam-Southeast-Asia-Travel-Photographer-05-1.jpg);
+  background-size: 100%;
+
 }
 
 .noty_text {
@@ -14,13 +16,43 @@ body {
   font-weight: normal;
 }
 
-.container {
-  margin: 0 auto;
+.prof-back {
+  background-image: url(http://cdn.lightgalleries.net/4bd5ec1013294/images/Destination_Resort_Six_Senses-4-1.jpg);
 
-  .starter-template {
-    padding: 40px, 15px;
-    text-align: center;
-  }
 }
+// .container {
+//   margin: 0 auto;
+
+//   .starter-template {
+//     padding: 40px, 15px;
+//     text-align: center;
+//   }
+// }
+
+
+// #container {
+//     width:100%;
+//     height:200px;
+// }
+// #one {
+//     width:33.333%;
+//     height:800px;
+//     float:left;
+
+// }
+// #two {
+//     width:33.333%;
+//     height:800px;
+//     float:left;
+
+// }
+// #three {
+//     width:33.333%;
+//     height:800px;
+//     float:left;
+
+// }
+
+
 
 
