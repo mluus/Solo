@@ -14,3 +14,9 @@
 //= require jquery_ujs
 //= require bootstrap-sprockets
 //= require_tree .
+
+// $(':radio').change(
+//   function(){
+//     $('.choice').text( this.value + ' stars' );
+//   }
+// )

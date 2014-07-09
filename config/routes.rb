@@ -13,6 +13,7 @@ Rails.application.routes.draw do
   post 'profile' => 'profile#index'
 
   get 'selector' => 'selector#index'
+  post 'selector' => 'selector#create'
 
   get 'itinerary' => 'itinerary#index'
 
