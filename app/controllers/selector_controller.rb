@@ -1,15 +1,15 @@
 class SelectorController < ApplicationController
 
-  def create
-    selector = Url.new
-    url.original = params[:url]
-
-  end
-
   def index
+  #   @selector = Selector.new
+  #   @selector.original = params[:selector]
+
+  #   if @selector.save
+  #     render :itinerary
+  #   else
+  #     render :text, "Error"
+  #   end
+  # end
+
   end
-
-
 end
-
-

@@ -1,5 +1,12 @@
-require 'rails_helper'
+# require 'rails_helper'
 
-RSpec.describe User, :type => :model do
-  pending "add some examples to (or delete) #{__FILE__}"
-end
+# Rspec.describe User, :type => :model do
+#   it "is invalid if the first name is empty" do
+#     user = User.new
+#     user.last_name = "luus"
+#     user.save
+
+#     expect(user).to be_invalid
+# end
+
+# end

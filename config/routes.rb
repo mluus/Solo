@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  # devise_for :users, :controllers =>
   devise_for :users
   root 'site#index'
 
@@ -16,5 +17,7 @@ Rails.application.routes.draw do
   post 'selector' => 'selector#create'
 
   get 'itinerary' => 'itinerary#index'
+  post 'itinerary' => 'itinerary#create'
+  get 'itinerary' => 'itinerary#create'
 
 end

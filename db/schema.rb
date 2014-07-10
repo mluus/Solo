@@ -11,7 +11,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140707095446) do
+ActiveRecord::Schema.define(version: 20140710064105) do
+
+  create_table "itineraries", force: true do |t|
+    t.string   "date"
+    t.string   "destination"
+    t.string   "rating"
+    t.string   "starting"
+    t.string   "hotel"
+    t.string   "tfd"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "profiles", force: true do |t|
     t.string   "email"
@@ -31,6 +42,8 @@ ActiveRecord::Schema.define(version: 20140707095446) do
   create_table "users", force: true do |t|
     t.string   "email",                  default: "", null: false
     t.string   "encrypted_password",     default: "", null: false
+    t.string   "first_name"
+    t.string   "last_name"
     t.string   "reset_password_token"
     t.datetime "reset_password_sent_at"
     t.datetime "remember_created_at"
