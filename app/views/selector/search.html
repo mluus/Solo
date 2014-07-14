@@ -1,0 +1,29 @@
+<table>
+<% @itineraries.each do |i| %>
+
+    <tr class = "itin destination">
+      <td><%= i.destination %></td>
+    </tr>
+
+    <tr class = "itin starting">
+      <td><%= i.starting%></td>
+    </tr>
+
+    <tr class = "itin rating">
+      <td><%= i.rating%></td>
+    </tr>
+
+    <tr class = "itin date">
+      <td><%= i.date%></td>
+    </tr>
+
+    <tr class = "itin hotel" >
+      <td><%= i.hotel%></td>
+    </tr>
+
+    <tr class = "itin tfd" >
+      <td><%= i.tfd%></td>
+    </tr>
+
+<% end %>
+</table>

@@ -13,6 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require bootstrap-sprockets
+//= require bootstrap-slider
 //= require_tree .
 
 // $(':radio').change(
@@ -20,3 +21,10 @@
 //     $('.choice').text( this.value + ' stars' );
 //   }
 // )
+$(document).ready(function() {
+  $('#ex1').slider({
+    formater: function(value) {
+      return 'Current value: ' + value;
+    }
+  });
+});

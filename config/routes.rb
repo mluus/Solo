@@ -14,10 +14,13 @@ Rails.application.routes.draw do
   post 'profile' => 'profile#index'
 
   get 'selector' => 'selector#index'
-  post 'selector' => 'selector#create'
+  post 'selector' => 'selector#search'
+
 
   get 'itinerary' => 'itinerary#index'
   post 'itinerary' => 'itinerary#create'
   get 'itinerary' => 'itinerary#create'
+
+  # get 'assets/images' => ''
 
 end

@@ -16,6 +16,8 @@ gem 'bootstrap-sass', '~> 3.2.0'
 gem 'spring',        group: :development
 gem 'devise'
 
+gem 'pry'
+
 group :development, :test do
   gem 'rspec-rails', '~> 3.0.0'
   gem 'capybara', '~> 2.3.0'
