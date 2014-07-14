@@ -17,6 +17,8 @@ body {
   background-size: 100%;
   color: white;
   margin-left: 45px;
+  // background-repeat: no-repeat;
+
 }
 
 .back-opaq {
@@ -24,14 +26,24 @@ body {
     position: absolute;
     position-top: 88px;
     position-left: 65px;
+    top: 184px;
+    left: 400px ;
+    width: 829px;
+    height: 520px;
+    border-radius: 5px;
+}
+
+.opaq-search {
+    background-color: rgba(236, 236, 236, 0.3);
+    position: absolute;
+    position-top: 300px;
+    position-left: 53px;
     top: 500;
     left: 20;
     width: 829px;
     height: 520px;
     border-radius: 5px;
 }
-
-
 
 .noty_text {
   font-size: 20px;

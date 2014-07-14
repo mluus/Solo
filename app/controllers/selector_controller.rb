@@ -16,8 +16,10 @@ class SelectorController < ApplicationController
 
   def search
     # @itineraries = Itinerary.all.order(created_at: :desc)
-    # binding.pry
     rating = params[:rating]
-    @itineraries = Itinerary.where('rating >= ' + rating).order(created_at: :desc)
+    duration = params[:duration]
+    @itineraries = Itinerary.where('rating = ' + rating) .order(created_at: :desc)
+    # binding.pry
+    # @itineraries = Itinerary.where ('duration = ' + duration) .order(created_at: :desc)
   end
 end

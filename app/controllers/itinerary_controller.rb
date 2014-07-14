@@ -11,7 +11,7 @@ class ItineraryController < ApplicationController
     itinerary.rating = params[:rating]
     itinerary.date = params[:date]
     itinerary.hotel = params[:hotel]
-    itinerary.tfd = params[:tfd]
+    itinerary.tfo = params[:tfo]
     itinerary.save
 
     @itinerary = itinerary

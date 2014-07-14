@@ -1,29 +1,34 @@
+
+<div class = "opaq-search"
 <table>
 <% @itineraries.each do |i| %>
+  <ul>
+    <li><tr class = "itin destination">
+      <td><strong><u>TO: <%= i.destination %></strong></u></td>
+    </tr></li>
 
-    <tr class = "itin destination">
-      <td><%= i.destination %></td>
-    </tr>
+    <li><tr class = "itin starting">
+      <td>FROM: <%= i.starting%></td>
+    </tr></li>
 
-    <tr class = "itin starting">
-      <td><%= i.starting%></td>
-    </tr>
+    <li><tr class = "itin rating">
+      <td>RATING: <%= i.rating%></td>
+    </tr></li>
 
-    <tr class = "itin rating">
-      <td><%= i.rating%></td>
-    </tr>
-
-    <tr class = "itin date">
+   <!--  <li><tr class = "itin date">
       <td><%= i.date%></td>
-    </tr>
+    </tr></li> -->
 
-    <tr class = "itin hotel" >
-      <td><%= i.hotel%></td>
-    </tr>
+    <li><tr class = "itin hotel" >
+      <td>HOTEL: <%= i.hotel%></td>
+    </tr></li>
 
-    <tr class = "itin tfd" >
-      <td><%= i.tfd%></td>
-    </tr>
+    <li><tr class = "itin tfo" >
+      <td>TIME FROM ORIGIN: <%= i.tfd%></td>
+    </tr></li>
+  </ul>
 
 <% end %>
 </table>
+
+</div>

@@ -21,6 +21,6 @@ Rails.application.routes.draw do
   post 'itinerary' => 'itinerary#create'
   get 'itinerary' => 'itinerary#create'
 
-  # get 'assets/images' => ''
+
 
 end

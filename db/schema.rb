@@ -16,10 +16,10 @@ ActiveRecord::Schema.define(version: 20140710064105) do
   create_table "itineraries", force: true do |t|
     t.string   "date"
     t.string   "destination"
-    t.string   "rating"
+    t.integer  "rating"
     t.string   "starting"
     t.string   "hotel"
-    t.string   "tfd"
+    t.integer  "tfd"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
