@@ -2,33 +2,33 @@
 <div class = "back-opaq">
 
 <h1>Search Results:</h1>
+    <div class = "results-opaq">
+      <table class="results">
+          <% @itineraries.each do |i| %>
 
-<table class="results">
-    <% @itineraries.each do |i| %>
+            <tr class = "itin destination">
+              <td><strong><u>TO: <%= i.destination %></u></strong></td>
+            </tr>
 
-      <tr class = "itin destination">
-        <td><strong><u>TO: <%= i.destination %></u></strong></td>
-      </tr>
+            <tr class = "itin starting">
+              <td>FROM: <%= i.starting%></td>
+            </tr>
 
-      <tr class = "itin starting">
-        <td>FROM: <%= i.starting%></td>
-      </tr>
+            <tr class = "itin star-rating">
+              <td>RATING: <%= i.rating%> star</td>
+            </tr>
 
-      <tr class = "itin star-rating">
-        <td>RATING: <%= i.rating%> star</td>
-      </tr>
+            <tr class = "itin hotel" >
+              <td><a href=<%= "#{i.hotelurl}" %> >HOTEL: <%= i.hotel%></a></td>
+            </tr>
 
-      <tr class = "itin hotel" >
-        <td><a href=<%= "#{i.hotelurl}" %> >HOTEL: <%= i.hotel%></a></td>
-      </tr>
+            <tr class = "itin tfo" >
+              <td>TIME FROM ORIGIN: <%= i.tfd%></td>
+            </tr>
 
-      <tr class = "itin tfo" >
-        <td>TIME FROM ORIGIN: <%= i.tfd%></td>
-      </tr>
-
-      <div class = "filler">
-      </div>
-    <% end %>
-</table>
-
+            <div class = "filler">
+            </div>
+          <% end %>
+      </table>
+    </div>
 </div>
