@@ -6,6 +6,7 @@ class Profile < ActiveRecord::Base
     return if self.email.nil?
 
     if self.email.include? "@"
+
     else
       self.errors.add :base, 'email format incorrect'
     end

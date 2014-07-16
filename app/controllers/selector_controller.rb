@@ -1,5 +1,4 @@
 class SelectorController < ApplicationController
-  protect_from_forgery with: :null_session
 
   def index
   #   @selector = Selector.new
@@ -15,11 +14,10 @@ class SelectorController < ApplicationController
   end
 
   def search
-    # @itineraries = Itinerary.all.order(created_at: :desc)
     rating = params[:rating]
-    duration = params[:duration]
-    @itineraries = Itinerary.where('rating = ' + rating) .order(created_at: :desc)
+    duration = params[:tfo]
     # binding.pry
-    # @itineraries = Itinerary.where ('duration = ' + duration) .order(created_at: :desc)
+    @itineraries = Itinerary.where("rating = #{rating} and tfd <= #{duration}").order(created_at: :desc)
+
   end
 end

@@ -10,8 +10,9 @@ Rails.application.routes.draw do
 
   get 'profile/profile' => 'profile#profile'
   get 'profile/user_data' => 'profile#user_data'
-  get 'profile' => 'profile#index'
-  post 'profile' => 'profile#index'
+  get 'profile' => 'profile#show'
+  post 'profile' => 'profile#create'
+
 
   get 'selector' => 'selector#index'
   post 'selector' => 'selector#search'

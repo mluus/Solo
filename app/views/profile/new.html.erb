@@ -1,0 +1,106 @@
+<h1>profile!</h1>
+
+<p><strong>Tell us more about you...Who are you? What do you like?</strong></p>
+
+<form class="form-horizontal" role="form" method="post" action="/profile">
+  <input type="hidden" name="user_id" value="<%= current_user.id %>" />
+  <div class="form-group">
+    <label for="firstname" class="col-sm-2 control-label">First Name</label>
+    <div class="col-sm-10">
+      <input type="firstname" name="first_name" class="form-control" id="inputFirstName" placeholder="First Name">
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="lastname" class="col-sm-2 control-label">Last Name</label>
+    <div class="col-sm-10">
+      <input type="lastname" name = "last_name" class="form-control" id="inputLastName" placeholder="Last Name">
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+    <div class="col-sm-10">
+      <input type="email" name = "email" class="form-control" id="inputEmail3" placeholder="Email">
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="inputHouseNumber" class="col-sm-2 control-label">House Number</label>
+    <div class="col-sm-10">
+      <input type="housenumber" name = "house_number" class="form-control" id="inputnumber" placeholder="House Number">
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="inputStreet" class="col-sm-2 control-label">Street Name</label>
+    <div class="col-sm-10">
+      <input type="streetname" name = "street_name" class="form-control" id="inputStreet" placeholder="Street Name">
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="inputCity" class="col-sm-2 control-label">City</label>
+    <div class="col-sm-10">
+      <input type="city" name = "city" class="form-control" id="inputCity" placeholder="City">
+    </div>
+  </div>
+
+
+  <div class = "break-type">
+
+  <h2>What do you like? </h2>
+  <p><strong>Tell us more about the type of break you like to take</strong></p>
+
+  <div class="beach checkbox">
+    <label>
+      <input type="checkbox" name = "beach_holiday" value="beach_holiday">
+      Relaxing break on pristine beaches in luxury resorts.
+    </label>
+  </div>
+
+  <div class="sport checkbox">
+    <label>
+      <input type="checkbox" name ="sport_holiday" value="sport_holiday">
+      Activity filled holiday packed with sport.
+    </label>
+  </div>
+
+  <div class="family checkbox">
+    <label>
+      <input type="checkbox" name = "family_holiday" value="family_holiday">
+      Family orientated holiday ith something for everyone.
+    </label>
+  </div>
+
+  <div class="historic checkbox">
+    <label>
+      <input type="checkbox" name ="culture_holiday" value="culture_holiday">
+      Destinations with enriching culture and historical experiences.
+    </label>
+  </div>
+
+  <div class="romantic checkbox">
+    <label>
+      <input type="checkbox" name = "romantic_holiday" value="romantic_holiday">
+      A romantic break for two.
+    </label>
+  </div>
+
+  <div class="city checkbox">
+    <label>
+      <input type="checkbox" name = "city_holiday" value="city_holiday">
+      City breaks packed with shopping, dining and partying.
+    </label>
+  </div>
+
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default">Submit</button>
+    </div>
+  </div>
+</form>
+
+
+

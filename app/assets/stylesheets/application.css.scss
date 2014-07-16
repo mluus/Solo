@@ -7,42 +7,48 @@
  @import "bootstrap";
 
 .navbar-brand {
-  padding-left: -100px
+  // padding-left: -100px
 }
 
-
-
 body {
-  background-image: url(http://cdn.lightgalleries.net/4bd5ec1013294/images/Vietnam-Southeast-Asia-Travel-Photographer-05-1.jpg);
+  height: 100%;
+  background-image: url(http://topwalls.net/wp-content/uploads/2013/05/Halong-Bay-Vietnam.jpg);
   background-size: 100%;
-  color: white;
+  color: #1110af;
+  background-color: #1110af;
+  margin-top: 140px;
   margin-left: 45px;
-  // background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-height: 100%;
+}
 
+h1 {
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+p {
+  padding-left: 20px;
+}
+
+.container {
+  margin: 0 auto;
+  position: relative;
+  resize: auto;
 }
 
 .back-opaq {
-    background-color: rgba(236, 236, 236, 0.3);
-    position: absolute;
-    position-top: 88px;
-    position-left: 65px;
-    top: 184px;
-    left: 400px ;
-    width: 829px;
-    height: 520px;
-    border-radius: 5px;
+  background-color: rgba(236, 236, 236, 0.3);
+  position-top: 88px;
+  width: 829px;
+  // height: 520px;
+  border-radius: 20px;
 }
 
-.opaq-search {
-    background-color: rgba(236, 236, 236, 0.3);
-    position: absolute;
-    position-top: 300px;
-    position-left: 53px;
-    top: 500;
-    left: 20;
-    width: 829px;
-    height: 520px;
-    border-radius: 5px;
+.results {
+  margin-left: 20px;
+  margin-top: 20px;
+  padding-bottom: 20px;
 }
 
 .noty_text {
@@ -50,44 +56,20 @@ body {
   font-weight: normal;
 }
 
-.prof-back {
-  background-image: url(http://cdn.lightgalleries.net/4bd5ec1013294/images/Destination_Resort_Six_Senses-4-1.jpg);
-
-}
-
 .icons {
-  padding-top: 200px;
-  padding-left: 200px;
+  padding-top: 100px;
+  padding-left: 100px;
   float: left;
   opacity:0.7;
-
 }
 
 .icons:hover {
     opacity: 10.5;
-
 }
-
-
 
 .slider-left {
   padding-top: 300px ;
 }
-
-
-// .star .stars1 {
-//    background: transparent no-repeat top left;
-//    width:100px;
-//    height:20px;
-//    float:left;
-//    display:block;
-//    margin: 5px;
-// }
-// .stars2 {background-position:-20px;}
-// .stars3 {background-position:-40px;}
-// .stars4 {background-position:-60px;}
-// .stars5 {background-position:-80px;}
-
 
 #ex1Slider .slider-selection {
   background: #BABABA;
@@ -99,15 +81,13 @@ body {
   margin-left: 50px;
 }
 
-
-
-
 .rating {
   overflow: hidden;
   display: inline-block;
   padding-top: 30px;
   padding-left: 30px;
 }
+
 .rating-input {
   float: right;
   width: 16px;
@@ -116,25 +96,27 @@ body {
   margin: 0 0 0 -16px;
   opacity: 0;
 }
- .rating-star {
-      position: relative;
-      float: right;
-      display: block;
-      width: 46px;
-      height: 46px;
-      background: url('star.png') 0 -16px;
-  }
 
- .rating-star:hover,
-  .rating-star:hover ~ .rating-star,
-  .rating-input:checked ~ .rating-star {
-      background-position: 0 0;
-  }
-
-.selectorheader {
- padding-top: 100px;
+.rating-star {
+  position: relative;
+  float: right;
+  display: block;
+  width: 46px;
+  height: 46px;
+  background: url('star.png') 0 0;
 }
 
+.rating-star:hover,
+.rating-star:hover ~ .rating-star,
+.rating-input:checked ~ .rating-star {
+  background: url('star_filled.png') 0 0;
+}
+
+.selectorheader {
+  padding-top: auto;
+  padding-left: 20px;
+  vertical-align: middle;
+}
 
 .btn-default {
   font-size:16px;
@@ -157,7 +139,11 @@ body {
   -webkit-box-shadow:inset 0px 0px 0px -13px #ffffff;
   -moz-box-shadow:inset 0px 0px 0px -13px #ffffff;
   box-shadow:inset 0px 0px 0px -13px #ffffff;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 10px;
 }
+
 .btn-default:hover {
   background:-moz-linear-gradient( center top, #dfdfdf 32%, #ededed 73% );
   background:-ms-linear-gradient( top, #dfdfdf 32%, #ededed 73% );
@@ -165,10 +151,24 @@ body {
   background:-webkit-gradient( linear, left top, left bottom, color-stop(32%, #dfdfdf), color-stop(73%, #ededed) );
   background-color:#dfdfdf;
 }
+
 .btn-default:active {
   position:relative;
   top:1px;
 }
+
+.hotel {
+  color: #0d0872;
+}
+
+.profile {
+  resize: auto;
+}
+
+.nav-right {
+  color: white;
+}
+
 
 
 

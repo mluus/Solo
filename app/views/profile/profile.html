@@ -1,7 +1,56 @@
-<h1>profile!</h1>
+<div class = "back-opaq">
+  <h1>Profile!</h1>
 
-<div class="profile-background">
-  <div id="prof-back"></div>
-  </div>
+  <table class= "profile">
 
-<p> you will need to insert user details below to continue
+
+      <tr class = "profile firstname">
+        <td><strong><u>NAME: <%= @profile.first_name %></strong></u></td>
+      </tr>
+
+      <tr class = "profile lastname">
+        <td>LAST NAME: <%= @profile.last_name%></td>
+      </tr>
+
+      <tr class = "profile email">
+        <td>EMAIL: <%= @profile.email%></td>
+      </tr>
+
+      <tr class = "profile housenumber" >
+        <td>HOUSE NUMBER: <%= @profile.house_number%></td>
+      </tr>
+
+      <tr class = "profile streetname" >
+        <td>STREET NAME: <%= @profile.street_name%></td>
+      </tr>
+
+      <tr class = "profile city" >
+        <td>CITY: <%= @profile.city%></td>
+      </tr>
+
+      <tr class = "profile beachholiday" >
+        <td>HOLIDAY TYPE: <%= @profile.beach_holiday%></td>
+      </tr>
+
+      <tr class = "profile sportholiday" >
+        <td>HOLIDAY TYPE: <%= @profile.sport_holiday%></td>
+      </tr>
+
+      <tr class = "profile familyholiday" >
+        <td>HOLIDAY TYPE: <%= @profile.family_holiday%></td>
+      </tr>
+
+      <tr class = "profile cultureholiday" >
+        <td>HOLIDAY TYPE: <%= @profile.culture_holiday%></td>
+      </tr>
+
+      <tr class = "profile romanticholiday" >
+        <td>HOLIDAY TYPE: <%= @profile.romantic_holiday%></td>
+      </tr>
+
+      <tr class = "profile cityholiday" >
+        <td>HOLIDAY TYPE: <%= @profile.city_holiday%></td>
+      </tr>
+
+  </table>
+</div>

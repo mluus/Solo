@@ -7,6 +7,7 @@ class CreateItineraries < ActiveRecord::Migration
       t.string :starting
       t.string :hotel
       t.integer :tfd
+      t.string :hotelurl
 
 
 

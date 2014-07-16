@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140710064105) do
+ActiveRecord::Schema.define(version: 20140715100307) do
 
   create_table "itineraries", force: true do |t|
     t.string   "date"
@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(version: 20140710064105) do
     t.string   "starting"
     t.string   "hotel"
     t.integer  "tfd"
+    t.string   "hotelurl"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -28,8 +29,18 @@ ActiveRecord::Schema.define(version: 20140710064105) do
     t.string   "email"
     t.string   "first_name"
     t.string   "last_name"
+    t.string   "house_number"
+    t.string   "street_name"
+    t.string   "city"
+    t.string   "beach_holiday"
+    t.string   "sport_holiday"
+    t.string   "family_holiday"
+    t.string   "culture_holiday"
+    t.string   "romantic_holiday"
+    t.string   "city_holiday"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "user_id"
   end
 
   create_table "urls", force: true do |t|

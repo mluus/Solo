@@ -1,5 +1,4 @@
 class ItineraryController < ApplicationController
-  protect_from_forgery with: :null_session
 
   def index
   end
@@ -12,6 +11,7 @@ class ItineraryController < ApplicationController
     itinerary.date = params[:date]
     itinerary.hotel = params[:hotel]
     itinerary.tfo = params[:tfo]
+    itinerary.hotelurl = params [:hotelurl]
     itinerary.save
 
     @itinerary = itinerary
