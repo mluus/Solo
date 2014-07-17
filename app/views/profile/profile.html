@@ -27,26 +27,53 @@
       <tr class = "profile city" >
         <td>CITY: <%= @profile.city%></td>
       </tr>
-
+        <% if @profile.beach_holiday
+            print
+           else ignore
+           end%>
       <tr class = "profile beachholiday" >
         <td>HOLIDAY TYPE: <%= @profile.beach_holiday%></td>
       </tr>
-
+         <% if @profile.sport_holiday
+            puts
+           else
+           end
+           %>
       <tr class = "profile sportholiday" >
         <td>HOLIDAY TYPE: <%= @profile.sport_holiday%></td>
       </tr>
+         <% if @profile.family_holiday
+            puts
+           else
+           end
+           %>
 
       <tr class = "profile familyholiday" >
         <td>HOLIDAY TYPE: <%= @profile.family_holiday%></td>
       </tr>
+         <% if @profile.culture_holiday
+            puts
+           else
+           end
+           %>
 
       <tr class = "profile cultureholiday" >
         <td>HOLIDAY TYPE: <%= @profile.culture_holiday%></td>
       </tr>
+         <% if @profile.romantic_holiday
+            puts
+           else
+           end
+           %>
 
       <tr class = "profile romanticholiday" >
         <td>HOLIDAY TYPE: <%= @profile.romantic_holiday%></td>
       </tr>
+         <% if @profile.city_holiday
+            puts
+           else
+           end
+           %>
 
       <tr class = "profile cityholiday" >
         <td>HOLIDAY TYPE: <%= @profile.city_holiday%></td>
@@ -54,3 +81,5 @@
 
   </table>
 </div>
+
+

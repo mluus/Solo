@@ -9,6 +9,7 @@ class CreateItineraries < ActiveRecord::Migration
       t.integer :tfd
       t.string :hotelurl
       t.string :cityurl
+      t.string :hotelpicurl
 
       t.timestamps
     end

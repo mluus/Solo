@@ -3,9 +3,6 @@ class ProfileController < ApplicationController
   before_action :authenticate_user!, :except => [:create]
 
   def show
-    # user_id = current_user.id
-
-    # does user have a profile?
 
     @profile = current_user.profile
 
@@ -17,26 +14,6 @@ class ProfileController < ApplicationController
       render :new
     end
   end
-
-
-
-#     helper_method :current_user
-# before_filter :have_profile
-
-# def have_profile
-#   if current_user.profile_id == 0 # or nil if you didn't do a :default => 0
-#     # redirect and return
-#   end
-# end
-
-# def current_user
-#   @current_user ||= User.find(session[:user_id]) if session[:user_id]
-# end
-
-
-      # need to create a profile
-      # then link to user account to set foreign_key
-      # then show the empty profile page
 
 
   def user_data

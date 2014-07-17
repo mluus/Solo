@@ -25,7 +25,8 @@ Itinerary.create(
   hotel: 'Tapei Royal Hotel',
   tfd: 90,
   hotelurl: 'http://www.taipeiroyalhotel.com/',
-  cityurl:'http://en.wikipedia.org/wiki/Taipei'
+  cityurl:'http://en.wikipedia.org/wiki/Taipei',
+  hotelpicurl: 'http://media-cdn.tripadvisor.com/media/photo-s/02/2a/7a/2d/standard-room.jpg'
 )
 
 Itinerary.create(
@@ -36,7 +37,9 @@ Itinerary.create(
   hotel: 'Vendome East Hotel',
   tfd: 90,
   hotelurl:'http://vendome-hotel-taipei.h-rez.com',
-  cityurl:'http://en.wikipedia.org/wiki/Taipei'
+  cityurl:'http://en.wikipedia.org/wiki/Taipei',
+  hotelpicurl: 'http://cdn1.agoda.net/hotelimages/443/443671/443671_14020912120018286277_STD.jpg'
+
 )
 
 Itinerary.create(
@@ -47,7 +50,8 @@ Itinerary.create(
   hotel: 'Mulan Hotel',
   tfd: 90,
   hotelurl:'http://www.swmall.com',
-  cityurl:'http://en.wikipedia.org/wiki/Taipei'
+  cityurl:'http://en.wikipedia.org/wiki/Taipei',
+  hotelpicurl: 'http://media-cdn.tripadvisor.com/media/photo-s/03/db/0e/17/mulan-motel-taipei.jpg'
 )
 
 Itinerary.create(
@@ -58,7 +62,8 @@ Itinerary.create(
   hotel: 'Madison Taipei Hotel',
   tfd: 90,
   hotelurl:'http://www.madisontaipei.com/',
-  cityurl:'http://en.wikipedia.org/wiki/Taipei'
+  cityurl:'http://en.wikipedia.org/wiki/Taipei',
+  hotelpicurl: 'http://i1.bookcdn.com/data/Photos/OriginalPhoto/529/52975/52975711/Madison-Taipei-photos-Exterior.JPEG'
 )
 
 Itinerary.create(
@@ -69,7 +74,8 @@ Itinerary.create(
   hotel: 'W Taipei Hotel',
   tfd: 90,
   hotelurl:'http://www.wtaipei.com/',
-  cityurl:'http://en.wikipedia.org/wiki/Taipei'
+  cityurl:'http://en.wikipedia.org/wiki/Taipei',
+  hotelpicurl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpM0K2N-wdqNKsZX9M3Js4Pi7FWyZbS31PUFOrtbQwdgDQw02oag'
 )
 
 Itinerary.create(
@@ -80,7 +86,8 @@ Itinerary.create(
   hotel: 'Seoul Travel Lodge',
   tfd: 180,
   hotelurl:'http://www.travelodge.com/hotels/south-korea/seoul/search-results',
-  cityurl:'http://en.wikipedia.org/wiki/Seoul'
+  cityurl:'http://en.wikipedia.org/wiki/Seoul',
+  hotelpicurl: 'http://media-cdn.tripadvisor.com/media/photo-s/04/02/c9/7c/travelodge-madrid-alcala.jpg'
 )
 
 Itinerary.create(
@@ -91,7 +98,8 @@ Itinerary.create(
   hotel: 'JJ Guest House',
   tfd: 180,
   hotelurl:'http://english.visitkorea.or.kr/enu/SI/SI_EN_3_1_1_1.jsp?cid=1830752',
-  cityurl:'http://en.wikipedia.org/wiki/Seoul'
+  cityurl:'http://en.wikipedia.org/wiki/Seoul',
+  hotelpicurl: 'http://p.hb-assets.com/p/100000/100534-20130718100757-lb.png'
 )
 
 Itinerary.create(
@@ -102,7 +110,8 @@ Itinerary.create(
   hotel: 'Summit Hotel',
   tfd: 180,
   hotelurl:'http://www.summithotelseoul.com/_KOR/index/index.asp',
-  cityurl:'http://en.wikipedia.org/wiki/Seoul'
+  cityurl:'http://en.wikipedia.org/wiki/Seoul',
+  hotelpicurl: 'http://cdn1.agoda.net/hotelimages/523/523085/523085_13093011480016712797_STD.jpg'
 )
 
 Itinerary.create(
@@ -113,7 +122,8 @@ Itinerary.create(
   hotel: 'Koreana Hotel',
   tfd: 180,
   hotelurl:'http://www.koreanahotel.com/2013_home/main/index.asp',
-  cityurl:'http://en.wikipedia.org/wiki/Seoul'
+  cityurl:'http://en.wikipedia.org/wiki/Seoul',
+  hotelpicurl: 'http://exp.cdn-hotels.com/hotels/1000000/20000/14100/14043/14043_72_z.jpg'
 )
 
 Itinerary.create(
@@ -124,7 +134,8 @@ Itinerary.create(
   hotel: 'Lotte Hotel',
   tfd: 180,
   hotelurl:'http://www.lottehotel.com/seoul/en/',
-  cityurl:'http://en.wikipedia.org/wiki/Singapore'
+  cityurl:'http://en.wikipedia.org/wiki/Seoul',
+  hotelpicurl: 'http://www.hotelchatter.com/files/admin/lotte_seoul.jpg'
 )
 
 Itinerary.create(
