@@ -1,7 +1,7 @@
 
 <div class = "back-opaq">
 
-<h1>Search Results:</h1>
+<h1><u>Search Results:<u></h1>
   <div class = "results-opaq">
     <table class="results">
       <% @itineraries.each do |i| %>
@@ -10,7 +10,7 @@
             <table>
 
               <tr class = "destination">
-                <td><strong><u><a href=<%= "#{i.cityurl}" %> >TO: <%= i.destination %></u></strong></td>
+                <td><h3><strong><u><a href=<%= "#{i.cityurl}" %> >TO: <%= i.destination %></u></strong><h3></td>
               </tr>
 
               <tr class = "starting">
@@ -22,7 +22,7 @@
               </tr>
 
               <tr class = "hotel" >
-                <td><a href=<%= "#{i.hotelurl}" %> >HOTEL: <%= i.hotel%></a></td>
+                <td><a href =<%= "#{i.hotelurl}"%>> <img class ="hotelpic" src=<%="#{i.hotelpicurl}"%> > HOTEL: <%= i.hotel%></a></td>
               </tr>
 
               <tr class = "tfo" >

@@ -14,7 +14,8 @@ Itinerary.create(
   hotel: 'Kempinski',
   tfd: 90,
   hotelurl: 'http://www.kempinski.com/en/bangkok/siam-hotel/welcome/',
-  cityurl:'http://en.wikipedia.org/wiki/Bangkok'
+  cityurl:'http://en.wikipedia.org/wiki/Bangkok',
+  hotelpicurl: 'http://www.concierge.com/images/destinations/hotels/asia/thailand/bangkok/siam_kempinksi/siam_004p.jpg'
   )
 
 Itinerary.create(
@@ -75,7 +76,7 @@ Itinerary.create(
   tfd: 90,
   hotelurl:'http://www.wtaipei.com/',
   cityurl:'http://en.wikipedia.org/wiki/Taipei',
-  hotelpicurl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpM0K2N-wdqNKsZX9M3Js4Pi7FWyZbS31PUFOrtbQwdgDQw02oag'
+  hotelpicurl: 'http://www.pinch-magazine.com/assets/W-Taipei-1.png'
 )
 
 Itinerary.create(
@@ -146,7 +147,8 @@ Itinerary.create(
   hotel: 'Fragrance Hotel',
   tfd: 240,
   hotelurl:'http://www.fragrancehotel.com/',
-  cityurl:'http://en.wikipedia.org/wiki/Singapore'
+  cityurl:'http://en.wikipedia.org/wiki/Singapore',
+  hotelpicurl:'http://static.asiarooms.com/hotelphotos/laterooms/247981/gallery/fragrance-hotel-riverside-singapore_291120110212254642.jpg'
 )
 
 Itinerary.create(
@@ -157,7 +159,8 @@ Itinerary.create(
   hotel: 'Tresor Tavern',
   tfd: 240,
   hotelurl:'http://tresortavern.com/',
-  cityurl:'http://en.wikipedia.org/wiki/Singapore'
+  cityurl:'http://en.wikipedia.org/wiki/Singapore',
+  hotelpicurl: 'http://static.asiarooms.com/hotelphotos/laterooms/250170/gallery/tresor-tavern-backpacker-hostel-singapore_120120121009188867.jpg'
 )
 
 Itinerary.create(
@@ -168,7 +171,8 @@ Itinerary.create(
   hotel: 'Duxton Hotel',
   tfd: 240,
   hotelurl:'http://www.theduxton.sg/abouthotel-en.html',
-  cityurl:'http://en.wikipedia.org/wiki/Singapore'
+  cityurl:'http://en.wikipedia.org/wiki/Singapore',
+  hotelpicurl: 'http://upload.wikimedia.org/wikipedia/commons/d/d5/Berjaya_Hotel_Singapore.JPG'
 )
 
 Itinerary.create(
@@ -179,7 +183,8 @@ Itinerary.create(
   hotel: 'Scarlet Hotel Singapore',
   tfd: 240,
   hotelurl:'http://www.thescarlethotels.com/singapore/?src=google_cpc_brand_local',
-  cityurl:'http://en.wikipedia.org/wiki/Singapore'
+  cityurl:'http://en.wikipedia.org/wiki/Singapore',
+  hotelpicurl: 'http://www.tourllion.com/components/com_reservations/gallery/s1/rooms/large/g2/room_36_610.jpg'
 )
 
 Itinerary.create(
@@ -190,7 +195,8 @@ Itinerary.create(
   hotel: 'Raffles Hotel Singapore',
   tfd: 240,
   hotelurl:'http://www.raffles.com/singapore/',
-  cityurl:'http://en.wikipedia.org/wiki/Singapore'
+  cityurl:'http://en.wikipedia.org/wiki/Singapore',
+  hotelpicurl: 'http://www.maldives.ru/photo/hotels/big_1685_8.jpg'
 )
 
 Itinerary.create(
@@ -201,7 +207,8 @@ Itinerary.create(
   hotel: 'Hotel Arma',
   tfd: 360,
   hotelurl:'http://www.hotelarma.com/',
-  cityurl:'http://en.wikipedia.org/wiki/Mumbai'
+  cityurl:'http://en.wikipedia.org/wiki/Mumbai',
+  hotelpicurl: 'http://media.expedia.com/hotels/3000000/2240000/2238200/2238107/2238107_2_b.jpg'
 )
 
 Itinerary.create(
@@ -212,7 +219,8 @@ Itinerary.create(
   hotel: 'Hotel Mumbai',
   tfd: 360,
   hotelurl: 'http://ww38.bentleys-hotel.com/',
-  cityurl:'http://en.wikipedia.org/wiki/Mumbai'
+  cityurl:'http://en.wikipedia.org/wiki/Mumbai',
+  hotelpicurl:'http://media.expedia.com/hotels/3000000/2830000/2821300/2821266/2821266_7_b.jpg'
 )
 
 Itinerary.create(
@@ -223,7 +231,8 @@ Itinerary.create(
   hotel: 'Leela Hotel',
   tfd: 360,
   hotelurl:'http://www.theleela.com/locations/mumbai',
-  cityurl:'http://en.wikipedia.org/wiki/Mumbai'
+  cityurl:'http://en.wikipedia.org/wiki/Mumbai',
+  hotelpicurl: 'http://gallivantguide.com/wp-content/uploads/2013/08/The-Leela-Mumbai-Exterior.jpg'
 )
 
 Itinerary.create(
@@ -234,7 +243,8 @@ Itinerary.create(
   hotel: 'VITS Hotel',
   tfd: 360,
   hotelurl:'http://www.vitshotels.com/',
-  cityurl:'http://en.wikipedia.org/wiki/Mumbai'
+  cityurl:'http://en.wikipedia.org/wiki/Mumbai',
+  hotelpicurl: 'http://media.expedia.com/hotels/1000000/920000/916600/916586/916586_9_b.jpg'
 )
 
 Itinerary.create(
@@ -245,7 +255,8 @@ Itinerary.create(
   hotel: 'Hyatt Regency Mumbai Hotel',
   tfd: 360,
   hotelurl:'http://mumbai.grand.hyatt.com/en/hotel/home.html',
-  cityurl:'http://en.wikipedia.org/wiki/Mumbai'
+  cityurl:'http://en.wikipedia.org/wiki/Mumbai',
+  hotelpicurl: 'http://www.cntraveler.com/hotels/asia/india/grand-hyatt-mumbai-mumbai-india/_jcr_content/par/cn_contentwell/par-main/cn_colctrl/par-col1/cn_features_containe/cn_manual_feature_0/cn_image_0.size.grand-hyatt-mumbai-mumbai-india-108605-1.jpg'
 )
 
 Itinerary.create(
@@ -256,7 +267,8 @@ Itinerary.create(
   hotel: 'Route 39 Hostel',
   tfd: 540,
   hotelurl:'http://route39istanbul.com/istanbul/',
-  cityurl:'http://en.wikipedia.org/wiki/Istanbul'
+  cityurl:'http://en.wikipedia.org/wiki/Istanbul',
+  hotelpicurl: 'http://u.hwstatic.com/propertyimages/8/82769/1.jpg'
 )
 
 Itinerary.create(
@@ -267,7 +279,8 @@ Itinerary.create(
   hotel: 'Codial House Hotel',
   tfd: 540,
   hotelurl:'https://www.cordialhouse.com/',
-  cityurl:'http://en.wikipedia.org/wiki/Istanbul'
+  cityurl:'http://en.wikipedia.org/wiki/Istanbul',
+  hotelpicurl: 'https://res.cloudinary.com/hostelling-internation/image/upload/t_hostel_carousel/v1384284390/Hostels/img32618-Istanbul---Cordial-House-dining-hall.jpg'
 )
 
 Itinerary.create(
@@ -278,7 +291,8 @@ Itinerary.create(
   hotel: 'Ahmet Affendi Hotel',
   tfd: 540,
   hotelurl:'http://www.ahmetefendievi.com/',
-  cityurl:'http://en.wikipedia.org/wiki/Istanbul'
+  cityurl:'http://en.wikipedia.org/wiki/Istanbul',
+  hotelpicurl: 'http://exp.cdn-hotels.com/hotels/5000000/4320000/4316700/4316607/4316607_12_y.jpg'
 )
 
 Itinerary.create(
@@ -289,7 +303,8 @@ Itinerary.create(
   hotel: 'Boutique Saint Sophia',
   tfd: 540,
   hotelurl:'http://boutiquesaintsophia.com/',
-  cityurl:'http://en.wikipedia.org/wiki/Istanbul'
+  cityurl:'http://en.wikipedia.org/wiki/Istanbul',
+  hotelpicurl: 'http://q-ec.bstatic.com/images/hotel/max300/260/26098052.jpg'
 )
 
 Itinerary.create(
@@ -300,7 +315,9 @@ Itinerary.create(
   hotel: 'W Istanbul Hotel',
   tfd: 540,
   hotelurl:'http://www.wistanbul.com.tr/',
-  cityurl:'http://en.wikipedia.org/wiki/Istanbul'
+  cityurl:'http://en.wikipedia.org/wiki/Istanbul',
+  hotelpicurl: 'http://www.theholidaystravel.com/wp-content/uploads/2012/12/W-Hotel-Istanbul-16.jpg'
+
 )
 
 Itinerary.create(
@@ -311,7 +328,8 @@ Itinerary.create(
   hotel: 'Avenue Inn Hotel',
   tfd: 720,
   hotelurl:'http://www.avenue-restaurant.co.uk/',
-  cityurl:'http://en.wikipedia.org/wiki/London'
+  cityurl:'http://en.wikipedia.org/wiki/London',
+  hotelpicurl: 'http://media-cdn.tripadvisor.com/media/photo-s/02/81/d0/2f/the-east-avenue-inn-suites.jpg'
 )
 
 Itinerary.create(
@@ -322,7 +340,8 @@ Itinerary.create(
   hotel: 'Marble Arch Inn Hotel',
   tfd: 720,
   hotelurl:'http://www.marblearch-inn.co.uk/',
-  cityurl:'http://en.wikipedia.org/wiki/London'
+  cityurl:'http://en.wikipedia.org/wiki/London',
+  hotelpicurl: 'http://d3g0cyp38fdi79.cloudfront.net/media/images/hotels/united_kingdom/london/thistle_marble_arch/rooms_and_suites/pagebanner/full_lonmar_family_room_for_3.jpg'
 )
 
 Itinerary.create(
@@ -333,7 +352,8 @@ Itinerary.create(
   hotel: 'Byron Hotel',
   tfd: 720,
   hotelurl:'http://www.capricornhotels.co.uk/hotel_byron/',
-  cityurl:'http://en.wikipedia.org/wiki/London'
+  cityurl:'http://en.wikipedia.org/wiki/London',
+  hotelpicurl: 'http://media-cdn.tripadvisor.com/media/photo-o/04/a1/a4/31/exterior.jpg'
 )
 
 Itinerary.create(
@@ -344,7 +364,8 @@ Itinerary.create(
   hotel: 'Sloan Square Hotel',
   tfd: 720,
   hotelurl:'http://www.sloanesquarehotel.co.uk/default-en.html',
-  cityurl:'http://en.wikipedia.org/wiki/London'
+  cityurl:'http://en.wikipedia.org/wiki/London',
+  hotelpicurl: 'http://www.tnetnoc.com/hotelphotos/983/238983/2631759-Sloane-Square-Hotel-Lobby-2-DEF.jpg'
 )
 
 Itinerary.create(
@@ -355,7 +376,8 @@ Itinerary.create(
   hotel: 'Claridges Hotel',
   tfd: 720,
   hotelurl:'http://www.claridges.co.uk/',
-  cityurl:'http://en.wikipedia.org/wiki/London'
+  cityurl:'http://en.wikipedia.org/wiki/London',
+  hotelpicurl: 'http://www.claridges.co.uk/uploadedImages/Claridges/Home/4-claridges-luxury-london-hotel-mayfair.jpg?n=573'
 )
 
 

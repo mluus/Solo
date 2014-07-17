@@ -20,7 +20,7 @@ body {
   background-color: #1110af;
   margin-top: 140px;
   margin-left: 45px;
-  background-repeat: no-repeat;
+  // background-repeat: no-repeat;
   background-height: 100%;
 }
 
@@ -50,7 +50,7 @@ p {
 }
 
 .back-opaq {
-  background-color: rgba(236, 236, 236, 0.3);
+  background-color: rgba(236, 236, 236, 0.5);
   position-top: 88px;
   width: 829px;
   // height: 520px;
@@ -200,22 +200,21 @@ p {
   margin-left: 195px;
 }
 
-// .navbar-fixed-top{
-//   background-color: #a0b6bf;
-//   border-color: #a0b6bf;
-// }
-
-// .active {
-//   background-color: #a0b6bf;
-//   border-color: #a0b6bf;
-// }
-
 .itin {
   height: 150px;
 }
 
 .tooltip{
   top: 31px;
+}
+
+.hotelpic{
+  height: 234px;
+  width: 311px;
+}
+
+.destination {
+  font-weight: 200%;
 }
 
 
