@@ -88,9 +88,16 @@ p {
   opacity:  1.0;
 }
 
-.slider-horizontal {
-  padding-top: 150px;
+.sliderfilter {
+  padding-top: 50px;
   margin-left: 50px;
+}
+
+.tooltip-inner {
+  color: red;
+  font-size: 130%;
+  background-color: #d5d5d5;
+  font-weight: 900;
 }
 
 .rating {
@@ -196,6 +203,14 @@ p {
 //   background-color: #a0b6bf;
 //   border-color: #a0b6bf;
 // }
+
+.itin {
+  height: 150px;
+}
+
+.tooltip{
+  top: 31px;
+}
 
 
 

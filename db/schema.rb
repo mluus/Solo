@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(version: 20140715100307) do
     t.string   "hotel"
     t.integer  "tfd"
     t.string   "hotelurl"
+    t.string   "cityurl"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

@@ -12,6 +12,7 @@ class ItineraryController < ApplicationController
     itinerary.hotel = params[:hotel]
     itinerary.tfo = params[:tfo]
     itinerary.hotelurl = params [:hotelurl]
+    itinerary.cityurl = params [:cityurl]
     itinerary.save
 
     @itinerary = itinerary
